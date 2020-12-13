@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="HackathonTest Automation Test Suite">
+  <!-- <test thread-count="5" name="Test"> -->
+  <test name="Hackathon Test Cases">
+  	<classes>
+  		<class name="com.hack.qa.testcases.SignUpPageTest"></class>
+  		<class name="com.hack.qa.testcases.HomePageTest"></class>
+  		<class name="com.hack.qa.testcases.SearchResultPageTest"></class>
+  		
+  	</classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

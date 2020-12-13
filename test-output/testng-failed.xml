@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [HackathonTest Automation Test Suite]">
+  <test thread-count="5" name="Hackathon Test Cases(failed)">
+    <classes>
+      <class name="com.hack.qa.testcases.SearchResultPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="selectfiltersTest"/>
+        </methods>
+      </class> <!-- com.hack.qa.testcases.SearchResultPageTest -->
+    </classes>
+  </test> <!-- Hackathon Test Cases(failed) -->
+</suite> <!-- Failed suite [HackathonTest Automation Test Suite] -->
